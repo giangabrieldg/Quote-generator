@@ -1,0 +1,68 @@
+
+$textColor: #222222;
+$backgroundColor: #BBE1FA;
+$buttonColor: #3282B8;
+$hoverColor: #0F4C75;
+$white: #F9F5F6;
+$font: 'ubuntu', sans-serif;
+
+body{
+    background-color: $backgroundColor;
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+
+    h1{
+        color: $textColor;
+        font-size: 2rem; /* Adjust as needed */
+    }
+}
+
+.quote-container{
+    display: flex;
+    margin: 3rem;
+    padding: 5rem;
+    max-width: 100%;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+
+    .quote{
+        color: $textColor;
+    }
+    .blockquote-footer{
+        color: $textColor;
+    }
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+    .generate-btn{
+        background-color:$buttonColor;
+        color:$white;
+        border-radius: 25px;
+        border: 1px solid $buttonColor;
+        width: 150px; 
+        height: 50px;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        transition: 0.3s;
+    }
+
+    .generate-btn:hover{
+        background-color: $hoverColor;
+    }
+}

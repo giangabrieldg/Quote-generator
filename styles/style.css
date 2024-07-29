@@ -1,0 +1,56 @@
+body {
+  background-color: #BBE1FA;
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.title-container h1 {
+  color: #222222;
+  font-size: 2rem; /* Adjust as needed */
+}
+
+.quote-container {
+  display: flex;
+  margin: 3rem;
+  padding: 5rem;
+  max-width: 100%;
+  background-color: #F9F5F6;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.quote-container .quote {
+  color: #222222;
+}
+.quote-container .blockquote-footer {
+  color: #222222;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.btn-container .generate-btn {
+  background-color: #3282B8;
+  color: #F9F5F6;
+  border-radius: 25px;
+  border: 1px solid #3282B8;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.btn-container .generate-btn:hover {
+  background-color: #0F4C75;
+}/*# sourceMappingURL=style.css.map */
